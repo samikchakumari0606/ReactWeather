@@ -1,0 +1,124 @@
+*{
+background-color: paleturquoise;
+color:black;
+}
+.wrap{
+    height:50px;
+    width:500px;
+   
+    margin:auto;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:flex;
+    
+}
+
+input{
+    height:30px;
+    width:300px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left:1ch;
+}
+button{
+    height:30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border:10px;
+}
+.border{
+height:400px;
+width:500px;
+
+margin:auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border: 1px solid black;
+margin-top: 20px;
+
+
+}
+
+.divide{
+    height:100px;
+    width:100%;
+    display:flex;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.des{
+    text-align: center;
+   
+    margin-left: 15ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sun{
+    height:150px;
+    width:100%;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.sun img{
+    height:100%;
+    width:100%;
+}
+.weatherInfo{
+    height:100px;
+    width:100%;
+   
+    display: flex;
+    flex:wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   justify-content: center;
+   align-items: center;
+}
+.date{
+    height:100px;
+    width:30%;
+   
+    
+}
+.foursection{
+    height:130px;
+    width:100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.tempMin{
+    margin-top: 5px;
+    height:100%;
+    width:100%;
+  
+    padding:0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+@media screen and (min-width:100px) and (max-width:400px){
+   
+    .foursection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* .weatherInfo> .temp .divide .date{
+        display:flex;
+        flex-basis: 30%;
+        background-color: aqua;
+     } */
+
+     
+}
